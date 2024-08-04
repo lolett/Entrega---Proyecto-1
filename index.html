@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="es-Es">
-<head>
+  <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Proyecto 1</title>
-</head>
-<body>
-  <header class="grid-container">
-      <nav>
-        <ul class="grid-container list">
+  </head>
+  <body>
+    <header class="header container">
+      <nav class="nav">
+        <ul class="nav-list">
             <li class="logo">
-              <img src="https://marketplace.canva.com/EAFvDRwEHHg/1/0/800w/canva-colorful-abstract-online-shop-free-logo-KEGL6UAl0h4.jpg" alt="Logo de mi tienda online"/>
+              <img src="/Entrega---Proyecto-1/Assets/Comic_comic_shop.png" alt="Logo de mi tienda online"/>
             </li>
-            <li class="menu">
-              <img src="/Entrega---Proyecto-1/Assets/menu.png" class="menu">
-              <a href="#">Categorías</a>
+            <li class="header-item">
+              <a href="#">Noticias</a>
+            </li>
+            <li class="header-item">
+              <a href="#">Ayuda</a>
             </li>
             <li class="search-bar">
-              <form action="">
-                <label for="">Buscar</label>
-                <input type="text">
+              <form action="search">
+                <input type="text" id="search-input" placeholder="Buscar">
+                <button type="submit">
+                  <img src="/Entrega---Proyecto-1/Assets/search-normal.png" alt="">
+                </button>
               </form>
-              <img src="/Entrega---Proyecto-1/Assets/search-normal.png" alt="">
-                <a href="#">Buscar</a>
             </li>
             <li class="personal-account">
               <img src="/Entrega---Proyecto-1/Assets/user.png" alt="">
@@ -33,24 +35,114 @@
               <img src="/Entrega---Proyecto-1/Assets/shopping-cart.png" alt="">
                 <a href="#">Mi cesta</a>
             </li>
+            <li class="logo">
+              <img src="/Entrega---Proyecto-1/Assets/Comic_comic_shop.png" alt="Logo de mi tienda online"/>
+            </li>
         </ul>
       </nav>
-</header>
-<main>
-    <section class="card-products">
-      <article class="card grid-container">
-        <h4>producto 1</h4>
-        <img src="#" >
-        <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
-        <div class="grid-container">
-            <p>29,87€</p>
-            <button>Comprar</button>
-        </div>
-    </article>
-    </section>
-</main>
-<footer>
-    <!-- Información adicional -->
-</footer>
-</body>
+    </header>
+    <main>
+
+      <section class="lateral-category-nav">
+        <h2>Categorías</h2>
+        <nav>
+          <div class="menu">
+                <img src="/Entrega---Proyecto-1/Assets/menu.png" alt="Logo de menú">
+                <a href="#">Categorías</a>
+          </div>
+          <ul>
+              <li><a href="#">Marvel</a></li>
+              <li><a href="#">DC</a></li>
+              <li><a href="#">Manga</a></li>
+              <li><a href="#">Wanga</a></li>
+              <li><a href="">Cómics independientes</a></li>
+              <li><a href="">Cómics clásicos</a></li>
+              <li><a href="">Ciencia ficción</a></li>
+              <li><a href="">Fantasía</a></li>
+              <li><a href="">Rol</a></li>
+              <li><a href="">Juegos de Mesa</a></li>
+              <li><a href="">Terror</a></li>
+              <li><a href="">Mechardising</a></li>
+              <li><a href="">Autores</a></li>
+              <li><a href="">OFERTAS</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section class="card-products">
+        <h2>Productos</h2>
+        <article class="card">
+          <h4>producto 1</h4>
+          <img src="#" alt="Imagen de un producto">
+          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
+          <div class="price-buy">
+              <p>29,87€</p>
+              <button>Comprar</button>
+          </div>
+        </article>
+        <article class="card">
+          <h4>producto 1</h4>
+          <img src="#" alt="Imagen de un producto">
+          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
+          <div class="price-buy">
+              <p>29,87€</p>
+              <button>Comprar</button>
+          </div>
+        </article>
+        <article class="card">
+          <h4>producto 1</h4>
+          <img src="#" alt="Imagen de un producto">
+          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
+          <div class="price-buy">
+              <p>29,87€</p>
+              <button>Comprar</button>
+          </div>
+        </article>
+        <article class="card">
+          <h4>producto 1</h4>
+          <img src="#" alt="Imagen de un producto">
+          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
+          <div class="price-buy">
+              <p>29,87€</p>
+              <button>Comprar</button>
+          </div>
+        </article>
+        <article class="card">
+          <h4>producto 1</h4>
+          <img src="#" alt="Imagen de un producto">
+          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
+          <div class="price-buy">
+              <p>29,87€</p>
+              <button>Comprar</button>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-content">
+        <ul class="footer-list">
+          <li class="item">Aviso Legal</li>
+          <li class="item">Política de privacidad</li>
+          <li class="item">Términos y Condiciones</li>
+          <li class="item">Contacto</li>
+        </ul>
+      </section>
+      <section class="social-media">
+        <a href="https://x.com/?lang=en" target="_blank">
+          <img src="#" alt="Logo de X">
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="#" alt="Logo de Facebook">
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="#" alt="Logo de Instagram">
+        </a>
+        <a href="https://telegram.org/" target="_blank">
+          <img src="#" alt="Logo de Telegram">
+        </a>
+        <a href="https://www.youtube.com/" target="_blank">
+          <img src="#" alt="Logo de YouTube">
+        </a>
+      </section>
+    </footer>
+  </body>
 </html>

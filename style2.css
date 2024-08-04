@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --tertiary-color: #ccc;
+  --forth-color: #000;
+  --font-size: 16px;
+}
+
+.hg_header {
+  grid-area: header;
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.hg_footer {
+  grid-area: footer;
+  background-color: aquamarine;
+}
+
+.hg_main {
+  grid-area: main;
+  background-color: blueviolet;
+}
+
+.hg_left {
+  grid-area: navigation;
+  background-color: tomato;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header"
+    "navigation main main main main"
+    "footer footer footer footer footer";
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-list .logo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list .search-bar {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list .personal-account,
+.nav-list .cart {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.card-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid var(--tertiary-color);
+  padding: 10px;
+  width: calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+.footer-list,
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.footer-list .item,
+.social-media a {
+  margin: 5px;
+}
