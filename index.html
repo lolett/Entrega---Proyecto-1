@@ -1,147 +1,190 @@
 <!DOCTYPE html>
-<html lang="es-Es">
-  <head>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Proyecto 1</title>
-  </head>
-  <body>
-    <header class="header container">
-      <nav class="nav">
-        <ul class="nav-list">
-            <li class="logo">
-              <img src="/Entrega---Proyecto-1/Assets/Comic_comic_shop.png" alt="Logo de mi tienda online"/>
-            </li>
-            <li class="header-item">
-              <a href="#">Noticias</a>
-            </li>
-            <li class="header-item">
-              <a href="#">Ayuda</a>
-            </li>
-            <li class="search-bar">
-              <form action="search">
-                <input type="text" id="search-input" placeholder="Buscar">
-                <button type="submit">
-                  <img src="/Entrega---Proyecto-1/Assets/search-normal.png" alt="">
-                </button>
-              </form>
-            </li>
-            <li class="personal-account">
-              <img src="/Entrega---Proyecto-1/Assets/user.png" alt="">
-              <a href="#">Mi cuenta</a>
-            </li>
-            <li class="cart">
-              <img src="/Entrega---Proyecto-1/Assets/shopping-cart.png" alt="">
-                <a href="#">Mi cesta</a>
-            </li>
-            <li class="logo">
-              <img src="/Entrega---Proyecto-1/Assets/Comic_comic_shop.png" alt="Logo de mi tienda online"/>
-            </li>
+  <title>Proyecto</title>
+</head>
+<body>
+  <header>
+      <div class="background-blur"></div>
+      <div><img class="logo" src="/Entrega---Proyecto-1/Assets/Comic_comic_shop.png" alt="Logo"></div>
+      <ul class="header-list">
+        <li>Home</li>
+        <li>News</li>
+        <li class="search-container">
+          <form action="#" class="search-form">
+            <input type="text" placeholder="search" class="search-input">
+            <button type="submit" class="search-button">
+              <img src="https://img.icons8.com/ios-filled/50/000000/search.png" alt="Search">
+            </button>
+          </form>
+        </li>
+        <li>Login/Sign-up</li>
+        <li>Support</li>
+      </ul>
+  </header>
+  <main class="main-container">
+    <section class="aside">
+        <h2>Categories</h2>
+        <ul>
+          <li><a href="#">Marvel</a></li>
+          <li><a href="#">DC</a></li>
+          <li><a href="#">Manga</a></li>
+          <li><a href="">Anime</a></li>
+          <li><a href="#">Series/Movies</a></li>
+          <li><a href="">Independent Comics</a></li>
+          <li><a href="">Sci-Fi</a></li>
+          <li><a href="">Fantasy</a></li>
+          <li><a href="">Rol games</a></li>
+          <li><a href="">Board Games</a></li>
+          <li><a href="">Horror</a></li>
+          <li><a href="">Merchandising</a></li>
+          <li><a href="">Figures</a></li>
+          <li><a href="">Authors</a></li>
+          <li><a href="">SALES</a></li>
         </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="lateral-category-nav">
-        <h2>Categorías</h2>
-        <nav>
-          <div class="menu">
-                <img src="/Entrega---Proyecto-1/Assets/menu.png" alt="Logo de menú">
-                <a href="#">Categorías</a>
-          </div>
-          <ul>
-              <li><a href="#">Marvel</a></li>
-              <li><a href="#">DC</a></li>
-              <li><a href="#">Manga</a></li>
-              <li><a href="#">Wanga</a></li>
-              <li><a href="">Cómics independientes</a></li>
-              <li><a href="">Cómics clásicos</a></li>
-              <li><a href="">Ciencia ficción</a></li>
-              <li><a href="">Fantasía</a></li>
-              <li><a href="">Rol</a></li>
-              <li><a href="">Juegos de Mesa</a></li>
-              <li><a href="">Terror</a></li>
-              <li><a href="">Mechardising</a></li>
-              <li><a href="">Autores</a></li>
-              <li><a href="">OFERTAS</a></li>
-          </ul>
-        </nav>
-      </section>
-      <section class="card-products">
-        <h2>Productos</h2>
-        <article class="card">
-          <h4>producto 1</h4>
-          <img src="#" alt="Imagen de un producto">
-          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
-          <div class="price-buy">
-              <p>29,87€</p>
-              <button>Comprar</button>
-          </div>
-        </article>
-        <article class="card">
-          <h4>producto 1</h4>
-          <img src="#" alt="Imagen de un producto">
-          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
-          <div class="price-buy">
-              <p>29,87€</p>
-              <button>Comprar</button>
-          </div>
-        </article>
-        <article class="card">
-          <h4>producto 1</h4>
-          <img src="#" alt="Imagen de un producto">
-          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
-          <div class="price-buy">
-              <p>29,87€</p>
-              <button>Comprar</button>
-          </div>
-        </article>
-        <article class="card">
-          <h4>producto 1</h4>
-          <img src="#" alt="Imagen de un producto">
-          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
-          <div class="price-buy">
-              <p>29,87€</p>
-              <button>Comprar</button>
-          </div>
-        </article>
-        <article class="card">
-          <h4>producto 1</h4>
-          <img src="#" alt="Imagen de un producto">
-          <p class="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem quidem, adipisci quas recusandae at tenetur inventore.</p>
-          <div class="price-buy">
-              <p>29,87€</p>
-              <button>Comprar</button>
-          </div>
-        </article>
-      </section>
-    </main>
-    <footer>
-      <section class="footer-content">
-        <ul class="footer-list">
-          <li class="item">Aviso Legal</li>
-          <li class="item">Política de privacidad</li>
-          <li class="item">Términos y Condiciones</li>
-          <li class="item">Contacto</li>
-        </ul>
-      </section>
-      <section class="social-media">
-        <a href="https://x.com/?lang=en" target="_blank">
-          <img src="#" alt="Logo de X">
-        </a>
-        <a href="https://www.facebook.com/" target="_blank">
-          <img src="#" alt="Logo de Facebook">
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <img src="#" alt="Logo de Instagram">
-        </a>
-        <a href="https://telegram.org/" target="_blank">
-          <img src="#" alt="Logo de Telegram">
-        </a>
-        <a href="https://www.youtube.com/" target="_blank">
-          <img src="#" alt="Logo de YouTube">
-        </a>
-      </section>
-    </footer>
-  </body>
+    </section>
+    <section class="productos">
+      <h1>Featured Products</h1>
+      <article class="card grid-container">
+        <h2>Wolverine And DeadPool</h2>
+        <img src="https://d1466nnw0ex81e.cloudfront.net/n_iv/600/2567333.jpg" alt="Wolverine And DeadPool">
+        <p class="description">The Wolverine and Deadpool title began in 2004 with issue #104, highlighting Wolverine and Deadpool stories.</p>
+        <div class="grid-container">
+            <p>14,39€</p>
+            <a href="https://www.mycomicshop.com/search?TID=28023566" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>Batman (1940)</h2>
+        <img src="https://www.radarcomics.com/es/imagenes/9789200/978920000058.JPG" alt="BATMAN (1940) #468">
+        <p class="description">'Shadow Box' part 2. Written by Chuck Dixon, with art by Tom Lyle and Andy Mushynsky. Cover by Lyle..</p>
+        <div class="grid-container">
+            <p>5,50€</p>
+            <a href="https://www.radarcomics.com/en/libro/batman-1940-468_58" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>Star Wars: Inquisitors</h2>
+        <img src="https://www.midtowncomics.com/images/PRODUCT/FUL/2336977_ful.jpg" alt="Cómic de Star Wars Inquisitors">
+        <p class="description">DARTH VADER SENDS FIFTH BROTHER ON A MISSION TO KILL A JEDI LEGEND! After the events of ORDER 66! Some have escaped!</p>
+        <div class="grid-container">
+          <p>4.49$</p>
+          <a href="https://www.midtowncomics.com/product/2336977" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>Star Wars:The High Republic</h2>
+        <img src="https://www.midtowncomics.com/images/PRODUCT/XL/2318013_xl.jpg" alt="Cómic de Star Wars The High Republic">
+        <p class="description">As Lula, Zeen, and their friends approach Eriadu, they are attacked by Nihil fighters. Will the hope of Republic be down?.</p>
+        <div class="grid-container">
+            <p>3.59$</p>
+            <a href="https://www.midtowncomics.com/product/2318013" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>DARK CRISIS (2022) #3</h2>
+        <img src="https://www.radarcomics.com/es/imagenes/9789200/978920078131.JPG" alt="Cómic de DC Dark Crisis 2022">
+        <p class="description">The battle of the Emerald Army has begun! Hal Jordan has launched all-out war on Pariah and the Dark Army to avenge ....</p>
+        <div class="grid-container">
+            <p>5,99€</p>
+            <a href="https://www.radarcomics.com/en/libro/dark-crisis-2022-3-samper_78131" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>Naruto TPB Vol. 47</h2>
+        <img src="https://www.tfaw.com/media/catalog/product/cache/1626744db03ed6f05af295b1a820c9c8/N/O/NOV090945.jpg" alt="">
+        <p class="description">Although the fierce attacks of a Naruto in hermit mode put Pain in trouble, he ends up falling into the nets of the inexhaustible...</p>
+        <div class="grid-container">
+            <p>7.99$</p>
+            <a href="https://www.tfaw.com/naruto-tpb-vol-47.html" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>D&D: DRAGON LANCE</h2>
+        <img src="https://prodimage.images-bn.com/pimages/9780786968282_p0_v11_s600x595.jpg">
+        <p class="description">Defend the citizens of Kalaman against an unstoppable threat as Krynn prepares for war.</p>
+        <div class="grid-container">
+            <p>47,95€</p>
+            <a href="https://www.barnesandnoble.com/w/dragonlance-wizards-rpg-team/1142030994" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>INSTANT TRANSMISSION GOKU</h2>
+        <img src="https://mmsanime.com/wp-content/uploads/2019/11/72656693_830660297349898_3899059091850395648_n.jpg" alt="Resina de Son Gouku haciendo la transmisión instantánea">
+        <p class="description">Size: Height 40 x Width 30 X D 31 cm Comes with 2 hands with certificate of authenticity and art box..</p>
+        <div class="grid-container">
+            <p>395€</p>
+            <a href="https://mmsanime.com/producto/pre-order-septiembre-2020-figure-class-dragon-ball-instant-transmission-goku-yadrat-40-cm/" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>Captain Tsubatsa: Full Anime</h2>
+        <img src="https://i.etsystatic.com/33245325/r/il/e926c9/6032395316/il_1140xN.6032395316_pmw6.jpg" alt="Pack serie completa de Captain Tsubatsa en DVD">
+        <p class="description">"Captain Tsubasa". Full original anime. Everything is in JAPANESE with ENGLISH subtitles.</p>
+        <div class="grid-container">
+            <p>69,37€</p>
+            <a href="https://www.etsy.com/listing/1726993028/captain-tsubasa-complete-anime-series" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>DEMON SLAYER: THE MOVIE</h2>
+        <img src="https://i.ebayimg.com/images/g/CQcAAOSwUNJhrvQs/s-l960.webp" alt="Blue Ray de la película Demon Slayer The movie: Mugen Train">
+        <p class="description">Tanjiro and the group arrived to their next mission on the Mugen Train, where over 40 people have disappeared in short time...</p>
+        <div class="grid-container">
+            <p>58.98$</p>
+            <a href="https://www.ebay.com/itm/194587525749" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>One Piece Volume 1-23</h2>
+        <img src="https://mangamart.com/cdn/shop/products/OnePieceBoxSetEastBlueandBaroqueWorks_Volumes1-23B_700x.jpg?v=1639705124" alt="Pack de cómics de One Piece. Del volumen 1 al 23">
+        <p class="description">Monkey D. Luffy dreamed of becoming King of the Pirates. He accidentally ate the Gum-Gum Fruit, an enchanted Devil Fruit that...</p>
+        <div class="grid-container">
+            <p>134.75$</p>
+            <a href="https://mangamart.com/products/one-piece-box-set-1" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+      <article class="card grid-container">
+        <h2>ALIEN</h2>
+        <img src="https://m.media-amazon.com/images/I/91tgKeTw4-L._SL1500_.jpg" alt="4k Ultra HD + Blue Ray de la película Alien: El Octavo pasajero">
+        <p class="description">On their voyage home, the crew of the deepspace tug Nostromo investigate a transmission from a desolate planet...</p>
+        <div class="grid-container">
+            <p>21,98$</p>
+            <a href="https://www.amazon.com/Alien-4K-UHD-Sigourney-Weaver/dp/B07P83ZXX4/ref=sr_1_1?crid=2EY6X650FU4RZ&dib=eyJ2IjoiMSJ9.ezNJQKtM5g82wWBqYWGV0JLfwuYJ4UD4dp5fnFf4fRXh5uFCre7cqIXyOARPYVsBW7EfgsC0NhjjozrU20kRDsfRQpABN8DNoPPO97xAhsKwrVG1nCEX1rAOURWqEFccCm93HrUHxzv7kmqPpBFLFWbA_3c-9KuNt9Yq1A6rdZ68L-ir5_0c8w82RGTottrbgUP1IoHeNsby_-AEx_ezcj1r7Ln7EURRAC2s43D1zzE.Hyw0Nk8RniQwKWf20RDyNRPvJAfJ1A8kTH14PU1-s-o&dib_tag=se&keywords=Alien&qid=1723048390&sprefix=alien%2Caps%2C160&sr=8-1" class="buy-button" target="_blank" rel="nopeer referrer">Comprar</a>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <section class="footer-content">
+      <ul class="footer-list">
+        <li class="item">Legal Notice</li>
+        <li class="item">Privacy policy</li>
+        <li class="item">Terms and conditions</li>
+        <li class="item">Contact</li>
+      </ul>
+    </section>
+    <section class="social-media">
+      <a href="https://x.com/?lang=en" target="_blank" rel="nopeer referrer">
+        <img src="https://img.freepik.com/free-vector/new-2023-twitter-logo-x-icon-design_1017-45418.jpg?t=st=1723046757~exp=1723050357~hmac=953d284dae204f9a1e3697c5318834021f774ee1a8659ebe84a5d23c8b4f512f&w=740" alt="X Logo">
+      </a>
+      <a href="https://www.instagram.com/" target="_blank" rel="nopeer referrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg" alt="Instagram Logo">
+        
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" rel="nopeer referrer">
+        <img src="https://cdn.pixabay.com/photo/2021/06/15/12/51/facebook-6338507_1280.png" alt="Facebook Logo">
+      </a>
+      <a href="https://telegram.org/" target="_blank" rel="nopeer referrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram Logo">
+      </a>
+      <a href="https://www.youtube.com/" target="_blank" rel="nopeer referrer">
+        <img src="https://cdn.pixabay.com/photo/2016/11/19/03/08/youtube-1837872_1280.png" alt="YouTube Logo">
+      </a>
+    </section>
+  </footer>
+</body>
 </html>
