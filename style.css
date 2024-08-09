@@ -55,7 +55,7 @@ body {
   min-height: 100svh;
 }
 
-.background-blur {
+.background {
   position: fixed;
   top: 0;
   left: 0;
@@ -63,7 +63,10 @@ body {
   height: 20vh;
   background-image: url('https://assets.delawaretoday.com/2023/07/brett-breeding.jpg');
   background-size: cover;
+  /* Oscurecer un poco la imagen para que destaque el texto*/
+  filter: brightness(75%);
   background-position: center;
+  
   z-index: -1;
 }
 
@@ -103,7 +106,7 @@ header div .logo {
 }
 
 header>ul>li {
-  color: var(--tertiary-color);
+  color: var(--fifth-color);
   font-size: var(--font-size);
   font-weight: bolder;
   display: flex;
