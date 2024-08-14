@@ -189,6 +189,7 @@ main {
   font-size: var(--font-size-large);
   color: #fff;
   text-align: center;
+  text-shadow: 2px 2px 4px var(--forth-color);
 }
 
 .aside ul {
